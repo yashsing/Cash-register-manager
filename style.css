@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #F87171;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  min-width: 100vw;
+}
+
+/* Container */
+.container {
+  margin: 4rem auto 7rem;
+  text-align: center;
+}
+
+.heading {
+  color: var(--primary-color);
+}
+
+.description {
+  font-size: larger;
+  margin: 1rem;
+}
+
+.input-label {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+.input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+#check-button {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+#error-message {
+  display: block;
+  font-size: larger;
+  margin: 1rem 0 0;
+}
+
+.change-table {
+  width: 50%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.change-table caption {
+  margin: 1rem auto;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+th,
+td {
+  border: 2px solid var(--primary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+.footer-header {
+  background-color: var(--primary-colour);
+  color: var(--offwhite-colour);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.footer-header .social-links {  
+  margin: 1rem;
+}
+
+.handle-logo {
+  width: 2rem;
+  margin: 1rem;
+}
